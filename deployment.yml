@@ -1,0 +1,7 @@
+dbtVersion: 0.20.1
+jobs:
+  - name: Run all models on schedule
+    schedule: '0 */6 * * *'
+    steps:
+      - name: Run all models
+        command: dbt run --models
