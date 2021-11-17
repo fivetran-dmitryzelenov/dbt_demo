@@ -10,7 +10,7 @@
 {{ config(materialized='table') }}
 
 select *
-from dbt_packages_statistics_gsheet.dbt_packages_statistics_gsheet
+from  `singular-vector-135519`.dbt_packages_statistics_gsheet.dbt_packages_statistics_gsheet
 
 /*
     Uncomment the line below to remove records with null `id` values
