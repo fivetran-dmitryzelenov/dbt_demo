@@ -9,4 +9,4 @@ jobs:
     schedule: '0 1 * * *'
     steps:
       - name: Run Pinterest models
-        command: dbt run --models fivetran/pinterest
+        command: dbt run --models pinterest
