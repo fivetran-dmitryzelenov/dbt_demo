@@ -4,9 +4,9 @@ jobs:
     schedule: '0 */6 * * *'
     steps:
       - name: Run project models
-        command: dbt run --select dbt_demo_project
+        command: dbt run --models dbt_demo_project
   - name: Every day run Pinterest Fivetran project models
     schedule: '0 */24 * * *'
     steps:
       - name: Run Pinterest models
-        command: dbt run --select fivetran/pinterest
+        command: dbt run --models fivetran/pinterest
