@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: statistics
+    schema: dbt_packages_statistics_gsheet
+    tables:
+      - name: dbt_packages_statistics_gsheet
+      - name: failed_dbt_packages_statistics_gsheet
