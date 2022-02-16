@@ -1,4 +1,4 @@
-dbtVersion: 0.18.1
+dbtVersion: 0.20.1
 jobs:
   - name: Every 6 hours run project models
     schedule: '0 */6 * * *'
